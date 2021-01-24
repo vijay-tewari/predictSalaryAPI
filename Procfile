@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT app:predictSalaryAPI
+web: gunicorn --bind 0.0.0.0:$PORT predictSalaryAPI:app
